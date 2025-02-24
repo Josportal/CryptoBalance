@@ -45,6 +45,11 @@ android {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/java/Jose/Lopez/cryptobalance/domain'
+        main.java.srcDirs += 'src/main/java/Jose/Lopez/cryptobalance/domain/usecases'
+    }
 }
 
 dependencies {
