@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_investments"
+        android:icon="@drawable/ic_investments"
+        android:title="Investments" />
+    <item
+        android:id="@+id/nav_exchanges"
+        android:icon="@drawable/ic_exchanges"
+        android:title="Exchanges" />
+    <item
+        android:id="@+id/nav_cryptos"
+        android:icon="@drawable/ic_cryptos"
+        android:title="Cryptos" />
+</menu>
